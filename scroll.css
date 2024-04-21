@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @font-face {
+        font-family: 'gilroy';
+        src: url(Gilroy);
+    }
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height:100%;
+    width: 100%;
+    background-color: rgb(157, 180, 248);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#main2{
+    height:100%;
+    width: 100%;
+    background-color: royalblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-family: 'gilroy', sans-serif;
+}
+#main3{
+    height:100%;
+    width: 100%;
+    background-color: darkblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#main4{
+    height:100%;
+    width: 100%;
+    background-color: green;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.panel{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
